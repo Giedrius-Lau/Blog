@@ -19,7 +19,7 @@ class PostTableSeeder extends Seeder
         $faker = Factory::create();
 
 
-        for($i = 1; $i <= 10; $i++){
+        for($i = 1; $i <= 15; $i++){
 
           $image = "Post_Image_" . rand(1, 5) . ".jpg";
           $date = date("Y-m-d H:i:s", strtotime("2017-05-04 08:00:00 +{$i} days"));
